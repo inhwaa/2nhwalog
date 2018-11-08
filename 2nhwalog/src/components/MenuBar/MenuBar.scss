@@ -5,3 +5,22 @@
   padding: 0px 10%;
   background-color: $theme-color-1;
 }
+
+.Menu, .ActiveMenu {
+  text-decoration: none;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  font-size: 15pt;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    background-color: $theme-color-2;
+  }
+}
+
+.ActiveMenu {
+  background-color: $theme-color-2;
+}
